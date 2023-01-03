@@ -1,5 +1,4 @@
-from perlin_noise import PerlinNoise
+import eel
 
-temp = PerlinNoise()
-
-print("Begin")
+eel.init("web")
+eel.start("index.html")
