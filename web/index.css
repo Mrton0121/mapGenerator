@@ -1,0 +1,41 @@
+body{
+    background-color: #889b58;
+    margin: auto;
+    text-align: center;
+    float: center;
+}
+
+#title{
+    color: #633421;
+    font-size: 2em;
+    font-family: "Main";
+    font-weight: 900;
+    letter-spacing: .4em;
+}
+
+.container{
+    float:center;
+}
+
+.param_text{
+    color:#633421;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.button{
+    height: 2em;
+    width: 2em;
+}
+
+.plus{
+    background-color: rgb(17, 196, 17);
+    color: white;
+}
+
+@font-face {
+    font-family: 'Main';
+    src: url('fonts/Sevillana-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
