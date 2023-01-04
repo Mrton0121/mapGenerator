@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <script type="text/javascript" src="/index.js"></script>
+    <script src="./index.js"></script>
     <script type="text/javascript" src="/eel.js"></script>
     <title>Map generator</title>
 </head>
 <body onload="setDefaultValues()">
     <h1 id="title">Procedural Map Generator</h1>
     <div class="container">
-        <p class="param_text">Width: <input id="m_width" readonly="true" type="number" min="10" max="2048"></p>
-        <p class="param_text">Height: <input id="m_height" readonly="true" type="number" min="10" max="2048"></p>
-        <button onclick="send_data()">Küld</button>
+        <p class="param_text">Width: <input id="m_width" min="10" max="2048" type="number"></p>
+        <p class="param_text">Height: <input id="m_height" min="10" max="2048" type="number"></p>
+        <button onclick="sendData()">Generálás</button>
+        <img src="../teszt.png">
     </div>
-
-    <a onclick="teszt(1)"><div class="button plus">+</div></a>
 </body>
 </html>
